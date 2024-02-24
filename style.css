@@ -1,0 +1,101 @@
+/* CSS for button styling */
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 20px 0; /* Adjust padding as needed */
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.search-area {
+  background-color: #f2f2f2; /* Grey background color */
+  padding: 20px;
+}
+
+
+.title-container {
+  /*  background-color: black;*/
+    color: black;
+    text-align: left;
+    padding: 10px 0; /* Adjust padding as needed */
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inputField {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.searchBtn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.searchBtn:hover {
+    background-color: #45a049;
+}
+
+.student-list {
+    margin-top: 20px;
+}
+
+.student-list th, .student-list td {
+    padding: 8px;
+    text-align: left;
+}
+
+.student-list th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.student-list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.student-list tbody tr:hover {
+    background-color: #ddd;
+}
